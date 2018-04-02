@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="en">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,7 +22,6 @@
 
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-
 
 
 
@@ -79,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="rex,bolg, NexT" />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -101,7 +100,7 @@
 <meta property="og:url" content="http://yoursite.com/2015/02/22/2014年小结/index.html">
 <meta property="og:site_name" content="Rex 努力工作">
 <meta property="og:description" content="2014过去了，2015年到来了，生活还在继续，每年也就趁着过年写一篇日记吧，总结一下2014或许会是我各方面都成长最快的一年吧。 关于生活和旅行  年纪大了，人真的会变的忧伤，听的歌曲也算是最体现心情的最近比较喜欢上《Do You Remember》 ，喜欢这种淡淡的忧伤。很多曾经要好的朋友，渐渐都断了关系。有的出国留学，有点整天忙碌着工作和应酬，有的已经结婚生子，聚会的时候谈论的是“谁谁谁买了">
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2017-08-29T10:03:28.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="2014年小结">
@@ -114,14 +113,13 @@
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '5.1.2',
-    sidebar: {"position":"left","display":"hide","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -151,16 +149,22 @@
 
 
 
+
+
+
+
+
+
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -192,6 +196,32 @@
 <nav class="site-nav">
   
 
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
   
 
   
@@ -249,9 +279,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-02-22T15:14:00+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-02-22T15:14:00+08:00">
                 2015-02-22
               </time>
             
@@ -389,10 +419,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Table of Contents
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
+            站点概览
           </li>
         </ul>
       
@@ -411,11 +441,9 @@
 
           
             <div class="site-state-item site-state-posts">
-            
-              <a href="/archives">
-            
+              <a href="/archives/">
                 <span class="site-state-item-count">5</span>
-                <span class="site-state-item-name">posts</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
@@ -474,32 +502,29 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright" >
-<!--   
-  &copy;  2012 &mdash; 
+  
+  &copy; 
   <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">周大作</span>
-
-   -->
 </div>
 
 
-<!--   <div class="powered-by">Powered by <a class="theme-link" href="https://hexo.io">Hexo</a></div>
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
 
-  <span class="post-meta-divider">|</span>
-
-  <div class="theme-info">Theme &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.2</div> -->
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
 
 
         
-
-
-
-
-
-
 
         
       </div>
@@ -574,10 +599,6 @@
   
   
 
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
-
-
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
@@ -612,8 +633,6 @@
 
 
   
-
-
 
 
 
